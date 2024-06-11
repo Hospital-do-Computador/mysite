@@ -4,44 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital do Computador</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: url('path_to_your_technology_background_image.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .section {
+            padding: 20px 0;
+        }
+        .cta {
+            background: #007BFF;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Hospital do Computador</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Bem-vindo ao Hospital do Computador</h1>
+        <p>Serviços técnicos de alta qualidade para todas as suas necessidades tecnológicas</p>
     </header>
-
-    <section id="home">
-        <h2>Bem-vindo ao Hospital do Computador</h2>
-        <p>Seu computador está com problemas? Nós temos a solução! No Hospital do Computador, oferecemos serviços de manutenção e suporte técnico para todos os tipos de computadores e dispositivos de informática.</p>
-    </section>
-
-    <section id="services">
-        <h2>Nossos Serviços</h2>
-        <ul>
-            <li>Reparação de hardware</li>
-            <li>Remoção de vírus e malware</li>
-            <li>Instalação de software</li>
-            <li>Backup e recuperação de dados</li>
-            <li>Atualização de sistemas</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco para mais informações ou para agendar um serviço:</p>
-        <p>Email: contato@hospitaldocomputador.com</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>Endereço: Rua da Tecnologia, 123, São Paulo, SP</p>
-    </section>
-
+    <nav>
+        <a href="#about">Sobre Nós</a>
+        <a href="#services">Serviços</a>
+        <a href="#contact">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Quem Somos</h2>
+            <p>O "Hospital do Computador" foi fundado com a missão de proporcionar serviços técnicos de alta qualidade para usuários de computadores. Embora existam vários negócios com o mesmo nome, o nosso "Hospital do Computador" é independente e único, gerenciado e operado por um profissional dedicado e apaixonado pela tecnologia.</p>
+            <p>Nossa jornada começou com a visão de oferecer soluções rápidas e eficientes para problemas tecnológicos, garantindo que nossos clientes possam confiar plenamente em seus dispositivos. Desde o início, temos nos esforçado para manter um alto padrão de serviço, sempre buscando a satisfação total dos nossos clientes.</p>
+            <h3>Missão, Visão e Valores</h3>
+            <p><strong>Missão:</strong> Proporcionar soluções tecnológicas de alta qualidade e confiabilidade, garantindo a satisfação e a confiança dos nossos clientes.</p>
+            <p><strong>Visão:</strong> Ser reconhecido como o principal prestador de serviços técnicos de computadores na nossa comunidade, destacando-se pela excelência, dedicação e paixão pela tecnologia.</p>
+            <p><strong>Valores:</strong></p>
+            <ul>
+                <li>Excelência: Compromisso com a qualidade em todos os serviços prestados.</li>
+                <li>Integridade: Atuar com honestidade e transparência em todas as interações com clientes.</li>
+                <li>Paixão: Entregar nosso melhor em cada trabalho, movidos pelo amor à tecnologia.</li>
+                <li>Dedicação: Esforçar-se continuamente para resolver os problemas dos clientes de maneira eficiente e eficaz.</li>
+                <li>Inovação: Estar sempre atualizado com as últimas tendências e tecnologias para oferecer as melhores soluções possíveis.</li>
+            </ul>
+            <h3>Sobre o Fundador</h3>
+            <p>O "Hospital do Computador" é a realização do sonho de um jovem de ter seu próprio negócio. Gerenciado por um único funcionário, Henrique Sperb, que é formado em Técnico de Informática e em Análise e Desenvolvimento de Sistemas pelo IFG. Com apenas 20 anos, Henrique já possui uma sólida base educacional e uma paixão inigualável pela tecnologia. Seu comprometimento com o campo e a dedicação pessoal garantem que cada cliente receba um serviço personalizado e de alta qualidade.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Nossos Serviços</h2>
+            <h3>Manutenção de Computadores</h3>
+            <ul>
+                <li>Diagnóstico e reparo de hardware</li>
+                <li>Substituição e atualização de componentes</li>
+                <li>Limpeza interna e externa para evitar superaquecimento</li>
+                <li>Instalação de sistemas operacionais e software</li>
+            </ul>
+            <h3>Suporte Técnico e Consultoria</h3>
+            <ul>
+                <li>Solução de problemas e remoção de vírus e malware</li>
+                <li>Backup e recuperação de dados</li>
+                <li>Configuração e otimização de sistemas</li>
+                <li>Consultoria personalizada</li>
+            </ul>
+            <h3>Desenvolvimento de Sistemas</h3>
+            <ul>
+                <li>Desenvolvimento de aplicativos desktop e web</li>
+                <li>Análise de requisitos e design de sistemas</li>
+                <li>Implementação e teste de software</li>
+                <li>Manutenção e atualização de sistemas existentes</li>
+            </ul>
+            <h3>Redes e Infraestrutura</h3>
+            <ul>
+                <li>Configuração de redes domésticas e empresariais</li>
+                <li>Instalação e configuração de roteadores e switches</li>
+                <li>Solução de problemas de conectividade</li>
+                <li>Configuração de segurança de rede</li>
+            </ul>
+            <h3>Treinamento e Capacitação</h3>
+            <ul>
+                <li>Treinamento em uso de softwares de escritório</li>
+                <li>Educação sobre segurança digital</li>
+                <li>Capacitação em ferramentas de produtividade e desenvolvimento</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para saber mais sobre como podemos ajudar você a resolver seus problemas tecnológicos e melhorar sua experiência com a tecnologia.</p>
+            <div class="cta">
+                <a href="mailto:administracao@hospitaldocomputador.com">Envie-nos um e-mail</a>
+            </div>
+        </section>
+    </div>
     <footer>
         <p>&copy; 2024 Hospital do Computador. Todos os direitos reservados.</p>
     </footer>
